@@ -1,0 +1,6 @@
+CREATE TABLE  RUL_STUDENTS (
+    student_id INTEGER PRIMARY KEY,
+    last_name VARCHAR (30) NOT NULL,
+    group_id INTEGER FOREIGN KEY,
+    login VARCHAR (30) UNIQUE,
+    free_pay BOOLEAN DEFAULT FALSE)
